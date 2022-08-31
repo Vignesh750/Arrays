@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-//! Program to print Each element of an array along with its frequency .
+//! Program to find the frequency of each distinct element in a sorted array
+//! and print that element along with its frequency.
 
 void frequency(int arr[], int n)
 {
@@ -21,7 +22,7 @@ void frequency(int arr[], int n)
   {
     cout << "The element " << arr[n - 1] << " appears " << 1 << " time.\n";
   }
-  //* The time complexity of this method is given by theta(n).
+  //* The time complexity of this solution is theta(n).
 }
 int main()
 {

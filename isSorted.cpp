@@ -1,5 +1,7 @@
 #include <iostream>
 using namespace std;
+//! Program to find if an array is sorted or not.
+
 void isSorted(int arr[], int n)
 {
   for (int i = 1; i < n; i++)
@@ -15,6 +17,7 @@ void isSorted(int arr[], int n)
     }
   }
   cout << "YES" << endl;
+  //* This algorithm takes O(n) time and O(1) auxiliary space.
 }
 
 int main()
