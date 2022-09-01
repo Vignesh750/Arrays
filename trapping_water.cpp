@@ -64,6 +64,7 @@ int efficient(int arr[], int n)
   return res;
   //* We are doing theta(n)+theta(n)+theta(n) work here so the
   //* overall time complexity of this solution is theta(n)
+  //* the overall space complexity is theta(n) as we are creating two new arrays of size n.
 }
 int main()
 {
